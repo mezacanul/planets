@@ -5,7 +5,7 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Sphere, useTexture } from "@react-three/drei";
 import { Box, Button, Heading, HStack, Text, VStack } from "@chakra-ui/react";
 import { motion, useMotionValue, useSpring } from "framer-motion";
-import ISS from "../components/ISS";
+import ISS from "../../components/Main/3D/ISS"
 
 const data = {
     planets: [

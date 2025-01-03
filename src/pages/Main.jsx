@@ -1,8 +1,8 @@
 import MainLayout from "../components/Layout/MainLayout";
 
 
-export default function Main() {
+export default function Main({dev}) {
     return (
-        <MainLayout/>        
+        <MainLayout dev={dev}/>        
     )
 }
